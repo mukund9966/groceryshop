@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/Intellij CLion/GroceryShop/datamodel/Item.h
+iostream
+-
+
+E:/Intellij CLion/GroceryShop/datamodel/Stock.h
+iostream
+-
+vector
+-
+Item.h
+E:/Intellij CLion/GroceryShop/datamodel/Item.h
+../headers/parser.hpp
+E:/Intellij CLion/GroceryShop/headers/parser.hpp
+
+E:/Intellij CLion/GroceryShop/headers/parser.hpp
+fstream
+-
+memory
+-
+stdexcept
+-
+string
+-
+vector
+-
+
+E:/Intellij CLion/GroceryShop/main.cpp
+iostream
+-
+datamodel/Stock.h
+E:/Intellij CLion/GroceryShop/datamodel/Stock.h
+

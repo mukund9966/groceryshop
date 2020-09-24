@@ -1,0 +1,3 @@
+E:/Intellij CLion/GroceryShop/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/Intellij CLion/GroceryShop/cmake-build-debug/CMakeFiles/untitled.dir
+E:/Intellij CLion/GroceryShop/cmake-build-debug/CMakeFiles/rebuild_cache.dir
