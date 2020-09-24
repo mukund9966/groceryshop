@@ -35,7 +35,7 @@ public:
     }
 
     string toString() {
-        return "Name: " + name + " " + "Price: " + price + "Quantity: " + quantity;
+        return "Name: " + name + " " + "Price: " + to_string(price) + " " + "Quantity: " + to_string(quantity);
     }
 };
 

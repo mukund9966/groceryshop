@@ -14,7 +14,6 @@ private:
 
     Stock() {
         fin.open("../stock.csv");
-        readStock();
     }
 
 public:
@@ -26,7 +25,6 @@ public:
     }
 
     void readStock() {
-
         string line;
         if(fin.is_open()) {
             cout << "File is Open.\n";
@@ -46,7 +44,7 @@ public:
         }
         cout<<"Stock: "<<endl;
         for(auto& itr : stockList) {
-            cout<<"\t"<<"Name: "<<itr.getName()<<" "<<"Price: "<<itr.getPrice()<<" "<<"Quantity: "<<itr.getQuantity()<<" "<<endl;
+            cout<<"\t"<<itr.toString()<<endl;
         }
         fin.close();
     }

@@ -2,12 +2,13 @@
 #include"datamodel/Stock.h"
 using namespace std;
 
-void printWelcome() {
+void opening() {
     cout<<"************Welcome to the Budget Food - The Grocery Store************\n";
-    cout<<
+    cout<<"Developed By - Saransh Kumar, Shivang Dubey, Mukund Khandelwal\n";
 }
 
 int main() {
-
+    opening();
+    Stock::getInstance()->readStock();
     return 0;
 }
